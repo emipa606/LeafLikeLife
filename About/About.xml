@@ -1,12 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
-	<ModMetaData>
-	<name>Leaf Like Life</name>
-	<author>Neceros</author>
-	<supportedVersions>
-		<li>1.1</li>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Leaf Like Life (Continued)</name>
+  <packageId>Mlie.LeafLikeLife</packageId>
+  <author>Neceros</author>
+  <url>https://github.com/emipa606/LeafLikeLife</url>
+  <supportedVersions>
+    <li>1.1</li>
     <li>1.2</li>
     <li>1.3</li>
-	</supportedVersions>
-	<packageId>neceros.leaflikelife</packageId>
-	<description>Smokeleaf, but like real life. Rebalances smokeleaf so it's more immersive: slightly less addictive, and far less cancer prone.</description>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Neceros mod https://steamcommunity.com/sharedfiles/filedetails/?id=2024017049
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/LeafLikeLife][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+Smokeleaf, but like real life. Rebalances smokeleaf so it's more immersive: slightly less addictive, and far less cancer prone. Set all of the values to your own tastes in the settings menu.
+
+
+[img]https://i.imgur.com/g69KRUw.png[/img]
+
+[h1]Smokeleaf changes[/h1]
+[b]Note[/b]: [i]The following changes can be customized in the mod settings[/i]
+
+[list]
+[*] Consciousness penalty reduced from 30% to 15%
+[*] Customize the movement, sleepiness, and hunger penalties
+[*] Half as addictive
+[*] Asthma chance decreased by half
+[*] Carcinoma chance decreased by three-quarters
+[*] Withdrawal mood penalty reduced from -22 to -8
+[/list]
+
+
+[img]https://i.imgur.com/2Zpv4mk.png[/img]
+
+[img]https://i.imgur.com/NpuFU7v.png[/img]
+
+[b]Github:[/b] https://github.com/Neceros/LeafLikeLife
+
+[img]https://i.imgur.com/s3KRLlu.gif[/img]
+
+[b]Get help, Ask questions, Give suggestions:[/b]
+[url=https://discord.gg/AvV7DT5][img]https://i.imgur.com/lkEpF5w.png[/img][/url]
+
+[b]My mods:[/b]
+[url=https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;amp;p=1&amp;amp;numperpage=30][img]https://i.imgur.com/MD0xY84.png[/img][/url]
+
+[b]Like these mods? Support me so I make more:[/b]
+[url=https://www.patreon.com/user?u=2987961][img]https://i.imgur.com/9z9LVrz.png[/img][/url]
+[url=https://ko-fi.com/Q5Q019Y8A][img]https://i.imgur.com/EHcTTRx.png[/img][/url]
+
+[i]MIT License; Copyright (c) 2020 Billy Barnes[/i]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>
