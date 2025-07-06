@@ -1,4 +1,4 @@
-# [Leaf Like Life (Continued)]()
+# [Leaf Like Life (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3426212097)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -28,24 +28,10 @@ Smokeleaf, but like real life. Rebalances smokeleaf so it's more immersive: slig
 
 
 
-
-![Image](https://i.imgur.com/2Zpv4mk.png)
-
-![Image](https://i.imgur.com/NpuFU7v.png)
-
-**Github:** https://github.com/Neceros/LeafLikeLife
-
 ![Image](https://i.imgur.com/s3KRLlu.gif)
-
-**Get help, Ask questions, Give suggestions:**
-[![Image](https://i.imgur.com/lkEpF5w.png)](https://discord.gg/AvV7DT5)
 
 **My mods:**
 [![Image](https://i.imgur.com/MD0xY84.png)](https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;p=1&amp;numperpage=30)
-
-**Like these mods? Support me so I make more:**
-[![Image](https://i.imgur.com/9z9LVrz.png)](https://www.patreon.com/user?u=2987961)
-[![Image](https://i.imgur.com/EHcTTRx.png)](https://ko-fi.com/Q5Q019Y8A)
 
 *MIT License; Copyright (c) 2020 Billy Barnes*
 
@@ -61,4 +47,6 @@ Smokeleaf, but like real life. Rebalances smokeleaf so it's more immersive: slig
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
+[![Image](https://img.shields.io/github/v/release/emipa606/LeafLikeLife?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3426212097) | tags:  rebalance

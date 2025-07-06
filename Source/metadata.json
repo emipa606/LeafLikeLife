@@ -2,8 +2,14 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "0",
-  "LastXmlCleaning": "2025-02-12T20:56:18.6764988+01:00",
+  "LastXmlCleaning": "2025-07-06T22:04:34.0624511+02:00",
   "SocialImageSet": true,
   "SearchTags": " rebalance",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": true,
+  "Defs": false,
+  "Assemblies": true,
+  "LinesOfCode": 10422,
+  "LinesOfXML": 1896,
+  "CodeBaseSize": 65
 }

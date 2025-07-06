@@ -21,37 +21,37 @@ public class LLLMod : Mod
         listing.Begin(inRect);
         listing.Label(
             "LLLConsciousnessLabel".Translate() + ": -" +
-            (-LLLModSettings.amountPenaltyConsciousness).ToStringPercent(),
+            (-LLLModSettings.AmountPenaltyConsciousness).ToStringPercent(),
             tooltip: "LLLConsciousnessTooltip".Translate());
-        LLLModSettings.amountPenaltyConsciousness = listing.Slider(LLLModSettings.amountPenaltyConsciousness, -1f, 0f);
+        LLLModSettings.AmountPenaltyConsciousness = listing.Slider(LLLModSettings.AmountPenaltyConsciousness, -1f, 0f);
         listing.Label(
-            "LLLMovementLabel".Translate() + ": -" + (-LLLModSettings.amountPenaltyMovement).ToStringPercent(),
+            "LLLMovementLabel".Translate() + ": -" + (-LLLModSettings.AmountPenaltyMovement).ToStringPercent(),
             tooltip: "LLLMovementTooltip".Translate());
-        LLLModSettings.amountPenaltyMovement = listing.Slider(LLLModSettings.amountPenaltyMovement, -1f, 0f);
-        listing.Label("LLLRestLabel".Translate() + ": -" + (-LLLModSettings.amountPenaltyRest).ToStringPercent(),
+        LLLModSettings.AmountPenaltyMovement = listing.Slider(LLLModSettings.AmountPenaltyMovement, -1f, 0f);
+        listing.Label("LLLRestLabel".Translate() + ": -" + (-LLLModSettings.AmountPenaltyRest).ToStringPercent(),
             tooltip: "LLLRestTooltip".Translate());
-        LLLModSettings.amountPenaltyRest = listing.Slider(LLLModSettings.amountPenaltyRest, -1f, 0f);
-        listing.Label("LLLHungerLabel".Translate() + ": +" + LLLModSettings.amountHungerRate.ToStringPercent(),
+        LLLModSettings.AmountPenaltyRest = listing.Slider(LLLModSettings.AmountPenaltyRest, -1f, 0f);
+        listing.Label("LLLHungerLabel".Translate() + ": +" + LLLModSettings.AmountHungerRate.ToStringPercent(),
             tooltip: "LLLHungerTooltip".Translate());
-        LLLModSettings.amountHungerRate = listing.Slider(LLLModSettings.amountHungerRate, 0f, 1f);
+        LLLModSettings.AmountHungerRate = listing.Slider(LLLModSettings.AmountHungerRate, 0f, 1f);
         listing.Gap();
-        listing.Label("LLLAddictivenessLabel".Translate() + ": " + LLLModSettings.amountAddictiveness.ToStringPercent(),
+        listing.Label("LLLAddictivenessLabel".Translate() + ": " + LLLModSettings.AmountAddictiveness.ToStringPercent(),
             tooltip: "LLLAddictivenessTooltip".Translate());
-        LLLModSettings.amountAddictiveness = listing.Slider(LLLModSettings.amountAddictiveness, 0f, 0.40f);
-        listing.Label("LLLToleranceLabel".Translate() + ": " + LLLModSettings.amountToleranceToAddict.ToStringPercent(),
+        LLLModSettings.AmountAddictiveness = listing.Slider(LLLModSettings.AmountAddictiveness, 0f, 0.40f);
+        listing.Label("LLLToleranceLabel".Translate() + ": " + LLLModSettings.AmountToleranceToAddict.ToStringPercent(),
             tooltip: "LLLToleranceTooltip".Translate());
-        LLLModSettings.amountToleranceToAddict = listing.Slider(LLLModSettings.amountToleranceToAddict, 0f, 1f);
+        LLLModSettings.AmountToleranceToAddict = listing.Slider(LLLModSettings.AmountToleranceToAddict, 0f, 1f);
         listing.Gap();
-        listing.Label("LLLAsthmaLabel".Translate() + ": " + LLLModSettings.amountAsthmaDaysChance,
+        listing.Label("LLLAsthmaLabel".Translate() + ": " + LLLModSettings.AmountAsthmaDaysChance,
             tooltip: "LLLAsthmaTooltip".Translate());
-        LLLModSettings.amountAsthmaDaysChance = (int)listing.Slider(LLLModSettings.amountAsthmaDaysChance, 5, 2000);
-        listing.Label("LLLCancerLabel".Translate() + ": " + LLLModSettings.amountCancerDaysChance,
+        LLLModSettings.AmountAsthmaDaysChance = (int)listing.Slider(LLLModSettings.AmountAsthmaDaysChance, 5, 2000);
+        listing.Label("LLLCancerLabel".Translate() + ": " + LLLModSettings.AmountCancerDaysChance,
             tooltip: "LLLCancerTooltip".Translate());
-        LLLModSettings.amountCancerDaysChance = (int)listing.Slider(LLLModSettings.amountCancerDaysChance, 5, 2000);
+        LLLModSettings.AmountCancerDaysChance = (int)listing.Slider(LLLModSettings.AmountCancerDaysChance, 5, 2000);
         listing.Gap();
-        listing.Label("LLLWithdrawalLabel".Translate() + ": " + LLLModSettings.amountPenaltyWithdrawal,
+        listing.Label("LLLWithdrawalLabel".Translate() + ": " + LLLModSettings.AmountPenaltyWithdrawal,
             tooltip: "LLLWithdrawalTooltip".Translate());
-        LLLModSettings.amountPenaltyWithdrawal = (int)listing.Slider(LLLModSettings.amountPenaltyWithdrawal, -30, 0);
+        LLLModSettings.AmountPenaltyWithdrawal = (int)listing.Slider(LLLModSettings.AmountPenaltyWithdrawal, -30, 0);
 
         listing.Gap();
         var buttonRect = listing.GetRect(30f);
